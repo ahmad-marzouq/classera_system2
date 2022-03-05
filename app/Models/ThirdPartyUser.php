@@ -29,6 +29,8 @@ use Laravel\Sanctum\HasApiTokens;
  * @method static \Illuminate\Database\Eloquent\Builder|ThirdPartyUser whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|ThirdPartyUser whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property string $role
+ * @method static \Illuminate\Database\Eloquent\Builder|ThirdPartyUser whereRole($value)
  */
 class ThirdPartyUser extends Authenticatable
 {
